@@ -1,0 +1,8 @@
+language: python
+python:
+- '3.6'
+script: bash ./travis/deploy.sh
+env:
+  global:
+    - ENCRYPTION_LABEL: b6adb91fefa4
+    - COMMIT_AUTHOR_EMAIL: deploy@travis-ci.org
